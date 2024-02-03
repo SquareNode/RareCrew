@@ -38,5 +38,12 @@ namespace RareCrew
             }
 
         }
+
+        public static void createPieChart(SortedList<int, string> parsedData)
+        {
+            MyPieChart.generateChart(parsedData);
+        }
     }
+
+
 }

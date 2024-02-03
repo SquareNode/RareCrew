@@ -15,6 +15,7 @@ namespace RareCrew
             var data = Model.getData();
             var parsedData = parse(data);
             View.createHTML(parsedData);
+            View.createPieChart(parsedData);
         }
 
         public static SortedList<int, string> parse(string json)
